@@ -1,0 +1,43 @@
+:root {
+  --chart-bg: #f3f3f3;
+  --chart-surface: #ffffff;
+  --chart-text-primary: #101010;
+  --chart-text-secondary: #767676;
+  --chart-border: #d7d4d4;
+  --chart-grid: rgba(16, 16, 16, 0.11);
+  --chart-axis: #101010;
+  --chart-shadow: rgba(0, 0, 0, 0.12);
+  --chart-font-family: "Aptos", "Trebuchet MS", "Segoe UI", sans-serif;
+
+  --chart-series-1: #ff1b1b;
+  --chart-series-2: #f59a0a;
+  --chart-series-3: #18d80f;
+  --chart-series-4: #e2f400;
+  --chart-series-5: #21a8d8;
+
+  --chart-accent-red: #fb1010;
+  --chart-accent-orange: #fb9311;
+  --chart-accent-green: #11ef00;
+  --chart-accent-lime: #d1f400;
+  --chart-accent-blue: #23a6d8;
+  --chart-accent-teal: #19b7c6;
+  --chart-accent-sage: #9dbbbc;
+
+  --chart-product-1: #4459df;
+  --chart-product-2: #a9b0e1;
+  --chart-product-3: #d5d7e7;
+
+  --chart-tab-bg: #d9d9d9;
+  --chart-tab-active-bg: #c9c9c9;
+  --chart-slider-active: #6a54ad;
+  --chart-slider-inactive: #d3cae5;
+  --chart-slider-dot: #22254d;
+  --chart-toggle-on: #168c80;
+  --chart-toggle-border: #168c80;
+  --chart-toggle-thumb: #f3f1eb;
+  --chart-action-border: #d1cfcb;
+  --chart-action-text: #afaca7;
+
+  --chart-radius-pill: 999px;
+  --chart-radius-md: 12px;
+}

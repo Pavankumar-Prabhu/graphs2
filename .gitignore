@@ -1,0 +1,7 @@
+node_modules/
+.bit/
+.bit-globals/
+dist/
+coverage/
+.DS_Store
+Thumbs.db

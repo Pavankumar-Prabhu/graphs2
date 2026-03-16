@@ -9,20 +9,6 @@
  */
 
 {
-    "components/chart": {
-        "name": "components/chart",
-        "scope": "",
-        "version": "",
-        "defaultScope": "my-scope",
-        "mainFile": "index.ts",
-        "rootDir": "my-scope/components/chart",
-        "config": {
-            "bitdev.react/react-env@5.0.4": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
-    },
     "components/charts/bar-chart": {
         "name": "components/charts/bar-chart",
         "scope": "",

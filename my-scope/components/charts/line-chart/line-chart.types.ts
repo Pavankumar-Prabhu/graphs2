@@ -5,7 +5,7 @@ import type {
   NavigationHandler,
   SeriesConfig,
   SliderItem,
-} from '@my-scope/components.lib';
+} from './chart.shared.js';
 
 export type LineChartProps = {
   title?: string;

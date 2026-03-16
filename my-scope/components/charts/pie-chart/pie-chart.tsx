@@ -1,20 +1,19 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
+  ChartContainer,
+  ChartHeader,
+  ChartInfo,
+  ChartLegend,
+  ChartSlider,
+  ChartToggle,
+  ChartTooltip,
   cn,
   getActiveFrameData,
   getLegendItems,
   navigateToPoint,
   type DataPoint,
-} from '@my-scope/components.lib';
-import '@my-scope/components.styles';
+} from './chart.shared.js';
 import { Cell, Pie, PieChart as RechartsPieChart, ResponsiveContainer, Tooltip } from 'recharts';
-import { ChartContainer } from '@my-scope/components.ui.chart-container';
-import { ChartHeader } from '@my-scope/components.ui.chart-header';
-import { ChartInfo } from '@my-scope/components.ui.chart-info';
-import { ChartLegend } from '@my-scope/components.ui.chart-legend';
-import { ChartSlider } from '@my-scope/components.ui.chart-slider';
-import { ChartToggle } from '@my-scope/components.ui.chart-toggle';
-import { ChartTooltip } from '@my-scope/components.ui.chart-tooltip';
 import type { PieChartProps } from './pie-chart.types.js';
 
 type PieChartCanvasProps = Pick<
